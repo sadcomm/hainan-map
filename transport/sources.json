@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-11-13T16:09:44.996Z",
+  "license": "Open Database License (ODbL) 1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "dataSource": "https://www.openstreetmap.org/",
+  "overpassServers": [
+    "https://overpass-api.de/api/interpreter"
+  ],
+  "bbox": "18.1,108.5,20.2,111.1",
+  "sources": [
+    {
+      "id": "osm-overpass",
+      "role": "published transport export",
+      "name": "OpenStreetMap via Overpass API",
+      "url": "https://www.openstreetmap.org/",
+      "license": "Open Database License (ODbL) 1.0",
+      "permission": "Reuse and redistribution are permitted under ODbL, with attribution and applicable share-alike obligations.",
+      "freshness": "Snapshot of OSM data at generatedAt; not a schedule or realtime feed.",
+      "status": "used",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "id": "hainan-open-data",
+      "role": "candidate official source",
+      "name": "海南省数据开放平台",
+      "url": "https://data.hainan.gov.cn/",
+      "license": "Not identified for the transport exports reviewed",
+      "permission": "No permission for offline redistribution of route data confirmed",
+      "freshness": "Official pages and service information may change; verify before reuse.",
+      "status": "reference-only",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "id": "sanya-transport",
+      "role": "manual verification reference",
+      "name": "三亚市交通运输局",
+      "url": "https://jt.sanya.gov.cn/",
+      "license": "Not identified for bulk route-data reuse",
+      "permission": "No permission for offline redistribution of route data confirmed",
+      "freshness": "Official pages and service information may change; verify before reuse.",
+      "status": "reference-only",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "id": "haikou-transport",
+      "role": "manual verification reference",
+      "name": "海口市交通运输局",
+      "url": "https://jtj.haikou.gov.cn/",
+      "license": "Not identified for bulk route-data reuse",
+      "permission": "No permission for offline redistribution of route data confirmed",
+      "freshness": "Official pages and service information may change; verify before reuse.",
+      "status": "reference-only",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "id": "danzhou-transport",
+      "role": "manual verification reference",
+      "name": "儋州市公共交通线路信息",
+      "url": "https://www.danzhou.gov.cn/danzhou/sj/cycx/201212/t20121205_1602851.html",
+      "license": "Not identified for bulk route-data reuse",
+      "permission": "No permission for offline redistribution of route data confirmed",
+      "freshness": "Official pages and service information may change; verify before reuse.",
+      "status": "reference-only",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "note": "Автоматически выгруженные данные требуют проверки перед добавлением официальных маршрутов и расписаний."
+}

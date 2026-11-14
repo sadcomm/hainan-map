@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-11-14",
+  "scope": "Manual review of the four Sanya OSM bus relations in the baseline export. This is an audit note, not a transit feed.",
+  "officialReferences": [
+    {
+      "name": "三亚市交通运输局，春节出行指南",
+      "url": "https://jt.sanya.gov.cn/jtjsite/tzgg/202501/3319d68fa5454cc09dc176adcfbe827d.shtml",
+      "publishedAt": "2025-01-28",
+      "finding": "Provides holiday-specific operating information for routes 108, 136, 104, 210 and 250, but does not verify the current stop order or geometry for OSM routes 8, 25, 50 or 125.",
+      "licenseOrPermission": "No bulk offline redistribution permission for route data identified; reference only."
+    },
+    {
+      "name": "三亚市旅游发展局，政协提案答复",
+      "url": "https://www.sanya.gov.cn/sanyasite/zxtalyfzj/202508/ed31a20f49f748e48f567bb3e29df684.shtml",
+      "publishedAt": "2025-07-25",
+      "finding": "Describes the tourism bus network and service adjustments at a high level; does not provide line-specific stop sequences for the four OSM relations.",
+      "licenseOrPermission": "No bulk offline redistribution permission for route data identified; reference only."
+    }
+  ],
+  "routes": [
+    {
+      "osmRelation": "osm:relation/6691774",
+      "ref": "25",
+      "osmStatus": "partial",
+      "osmCheckedAt": "2026-11-14",
+      "finding": "OSM has four ordered stop members but no route geometry. The official references reviewed do not verify this itinerary, so it remains partial.",
+      "thirdPartyCrossCheck": "A current route directory was consulted as a non-authoritative cross-check only; none of its itinerary data was copied into the exports.",
+      "redistribution": "Only the OSM relation data is in the transport export; no official or directory route data was added."
+    },
+    {
+      "osmRelation": "osm:relation/6691775",
+      "ref": "50",
+      "osmStatus": "partial",
+      "osmCheckedAt": "2026-11-14",
+      "finding": "OSM has one stop member and no route geometry. The official references reviewed do not verify this itinerary, so it remains partial.",
+      "thirdPartyCrossCheck": "A current route directory was consulted as a non-authoritative cross-check only; none of its itinerary data was copied into the exports.",
+      "redistribution": "Only the OSM relation data is in the transport export; no official or directory route data was added."
+    },
+    {
+      "osmRelation": "osm:relation/6691776",
+      "ref": "8",
+      "osmStatus": "partial",
+      "osmCheckedAt": "2026-11-14",
+      "finding": "OSM has one stop member and no route geometry. No current official line-specific itinerary was found in the references reviewed, so it remains partial.",
+      "redistribution": "Only the OSM relation data is in the transport export; no non-OSM route data was added."
+    },
+    {
+      "osmRelation": "osm:relation/19834333",
+      "ref": "125 (name tag; no ref tag)",
+      "osmStatus": "partial",
+      "osmCheckedAt": "2026-11-14",
+      "finding": "OSM has geometry but no ordered stop members. The official references reviewed do not verify this itinerary, so it remains partial.",
+      "redistribution": "Only the OSM relation data is in the transport export; no non-OSM route data was added."
+    }
+  ],
+  "conclusion": "None of the four routes can be marked officially verified or complete from the reviewed sources. Seek a current, openly licensed feed or written permission before adding official route details."
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "type": "Feature",
+    "id": "osm:relation/6691774",
+    "properties": {
+      "id": "osm:relation/6691774",
+      "city": "sanya",
+      "mode": "bus",
+      "ref": "25",
+      "stopIds": [
+        "osm:node/4269624292",
+        "osm:node/4424670692",
+        "osm:node/4269625991",
+        "osm:node/4424684991"
+      ],
+      "stopCount": 4,
+      "geometryStatus": "missing",
+      "status": "partial",
+      "source": "osm",
+      "sourceId": "osm:relation/6691774",
+      "sourceUrl": "https://www.openstreetmap.org/relation/6691774",
+      "checkedAt": "2026-11-13",
+      "license": "Open Database License (ODbL) 1.0",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "osm:relation/6691775",
+    "properties": {
+      "id": "osm:relation/6691775",
+      "city": "sanya",
+      "mode": "bus",
+      "ref": "50",
+      "stopIds": [
+        "osm:node/4424684991"
+      ],
+      "stopCount": 1,
+      "geometryStatus": "missing",
+      "status": "partial",
+      "source": "osm",
+      "sourceId": "osm:relation/6691775",
+      "sourceUrl": "https://www.openstreetmap.org/relation/6691775",
+      "checkedAt": "2026-11-13",
+      "license": "Open Database License (ODbL) 1.0",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "osm:relation/6691776",
+    "properties": {
+      "id": "osm:relation/6691776",
+      "city": "sanya",
+      "mode": "bus",
+      "ref": "8",
+      "stopIds": [
+        "osm:node/4424670692"
+      ],
+      "stopCount": 1,
+      "geometryStatus": "missing",
+      "status": "partial",
+      "source": "osm",
+      "sourceId": "osm:relation/6691776",
+      "sourceUrl": "https://www.openstreetmap.org/relation/6691776",
+      "checkedAt": "2026-11-13",
+      "license": "Open Database License (ODbL) 1.0",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  },
+  {
+    "type": "Feature",
+    "id": "osm:relation/19834333",
+    "properties": {
+      "id": "osm:relation/19834333",
+      "city": "sanya",
+      "mode": "bus",
+      "name": "125",
+      "nameEn": "125",
+      "from": "nanshan",
+      "to": "luhuitau",
+      "stopIds": [],
+      "stopCount": 0,
+      "geometryStatus": "available",
+      "status": "partial",
+      "source": "osm",
+      "sourceId": "osm:relation/19834333",
+      "sourceUrl": "https://www.openstreetmap.org/relation/19834333",
+      "checkedAt": "2026-11-13",
+      "license": "Open Database License (ODbL) 1.0",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  }
+]

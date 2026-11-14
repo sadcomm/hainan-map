@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-11-13T16:09:44.996Z",
+  "checkedAt": "2026-11-13",
+  "bbox": "18.1,108.5,20.2,111.1",
+  "source": "OpenStreetMap via Overpass API",
+  "sourceUrl": "https://www.openstreetmap.org/copyright",
+  "license": "Open Database License (ODbL) 1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "overpassServers": [
+    "https://overpass-api.de/api/interpreter"
+  ],
+  "requestStatus": {
+    "stops": {
+      "status": "succeeded",
+      "server": "https://overpass-api.de/api/interpreter"
+    },
+    "routeRelations": {
+      "status": "succeeded",
+      "server": "https://overpass-api.de/api/interpreter"
+    },
+    "routeMembers": {
+      "status": "succeeded",
+      "server": "https://overpass-api.de/api/interpreter"
+    }
+  },
+  "queries": {
+    "stops": "[out:json][timeout:120];\n(\n  node[\"highway\"=\"bus_stop\"](18.1,108.5,20.2,111.1);\n  way[\"highway\"=\"bus_stop\"](18.1,108.5,20.2,111.1);\n  node[\"public_transport\"=\"platform\"][\"bus\"=\"yes\"](18.1,108.5,20.2,111.1);\n  way[\"public_transport\"=\"platform\"][\"bus\"=\"yes\"](18.1,108.5,20.2,111.1);\n);\nout body center;",
+    "routeRelations": "[out:json][timeout:120];\nrel[\"type\"=\"route\"][\"route\"=\"bus\"](18.1,108.5,20.2,111.1);\nout body;",
+    "routeMembers": "[out:json][timeout:180];\nrel(6691774,6691775,6691776,19834333);\nout body;\n>;\nout body geom;"
+  },
+  "counts": {
+    "downloadedElements": 1223,
+    "rawStopElements": 821,
+    "stops": 821,
+    "routes": 4,
+    "routesWithGeometry": 1,
+    "routesWithStops": 3,
+    "completeRoutes": 0,
+    "partialRoutes": 4,
+    "unnamedStops": 361,
+    "possibleDuplicatePairs": 34,
+    "rawDownloadedElements": 1227
+  },
+  "byCity": {
+    "danzhou": {
+      "stops": 60,
+      "routes": 0
+    },
+    "wenchang": {
+      "stops": 28,
+      "routes": 0
+    },
+    "sanya": {
+      "stops": 475,
+      "routes": 4
+    },
+    "haikou": {
+      "stops": 238,
+      "routes": 0
+    },
+    "qionghai": {
+      "stops": 7,
+      "routes": 0
+    },
+    "wanning": {
+      "stops": 11,
+      "routes": 0
+    },
+    "hainan": {
+      "stops": 2,
+      "routes": 0
+    }
+  },
+  "warnings": [
+    "У некоторых маршрутов отсутствует геометрия.",
+    "У некоторых маршрутов отсутствует последовательность остановок."
+  ],
+  "overpassServer": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:180];\n(\n  nwr[\"highway\"=\"bus_stop\"](18.1,108.5,20.2,111.1);\n  nwr[\"public_transport\"=\"platform\"][\"bus\"=\"yes\"](18.1,108.5,20.2,111.1);\n  rel[\"type\"=\"route\"][\"route\"=\"bus\"](18.1,108.5,20.2,111.1);\n);\nout body geom;\n>;\nout body geom;"
+}
